@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+}
+
+header,
+section,
+footer {
+	background-color: #1F2937;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#header_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo {
+	color: #F9FAF8;
+	font-size: 24px;
+}
+
+#header_links {
+	font-size: 18px;
+	color: #E5E7EB;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+#section_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 50px 0 80px 0;
+	gap: 60px;
+}
+
+#right_section {
+	flex: 1;
+}
+
+#right_section img {
+	max-width: 100%	;
+}
+
+#left_section {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+}
+
+#sign_up_button {
+	max-width: 80px;
+	background-color: #3882F6;
+	color: white;
+	padding: 5px 20px 5px 20px;
+	border-radius: 7px;
+	text-align: center;
+}
+
+#left_section #awesome {
+	font-size: 48px;
+	color:  #F9FAF8;
+	font-weight: bolder;
+}
+
+#middle_four_boxes {
+	display: flex;
+	justify-content: space-around;
+	gap: 50px;
+	margin-bottom: 130px;
+}
+
+.middle_single_box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.semi_rounded_box {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #3882F6;
+	border-radius: 7px;
+}
+
+#inspiring_quote_box {
+	background-color: #E5E7EB;
+	display: flex;
+}
+
+#quote_box {
+	max-width: 700px;
+}
+
+#quote_text {
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #1F2937;
+}
+
+#quote_author {
+	text-align: right;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	color: #1F2937;
+}
+
+#some_random_information {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
+	padding-bottom: 17px;
+}
+
+#call_to_action_container {
+	background-color: #3882F6;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 0 20px 0;
+	margin-bottom: 48px;
+	color: white;
+	margin-top: 40px;
+}
+
+#cta_first_text {
+	font-weight: bolder;
+}
+
+#call_to_action_button {
+	border: 2px solid white;
+	padding: 5px 20px 5px 20px;
+	border-radius: 5px;
+}
+
+#call_to_action_button a {
+	color: white;
+}
